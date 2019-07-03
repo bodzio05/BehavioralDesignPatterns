@@ -20,7 +20,7 @@ namespace DesignPatterns
             DesignPatterns.Observer.Example.Execute_Example();
             DesignPatterns.State.Example.Execute_Example();
             DesignPatterns.Strategy.Example.Execute_Example();
-            DesignPatterns.TemplateMethod.Example.Execute_Example();
+            //DesignPatterns.TemplateMethod.Example.Execute_Example();      //not working due to not configured database connection
             DesignPatterns.Visitor.Example.Execute_Example();
             Console.ReadLine();
         }
